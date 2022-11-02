@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en <App /> Debe mostrar correctamente 1`] = `
+<div
+  className="client-form"
+>
+  <p>
+    Todos los campos son obligatorios
+  </p>
+  <Form
+    as="form"
+    onSubmit={[Function]}
+  >
+    <FormField>
+      <label>
+        Tipo de documento
+      </label>
+      <Select
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "key": "CC",
+              "text": "Cédula de ciudadanía",
+              "value": "CC",
+            },
+            Object {
+              "key": "TI",
+              "text": "Tarjeta de identidad",
+              "value": "TI",
+            },
+            Object {
+              "key": "CE",
+              "text": "Cédula Extrangera",
+              "value": "CE",
+            },
+          ]
+        }
+        value=""
+      />
+    </FormField>
+    <FormField>
+      <label>
+        Número de documento
+      </label>
+      <FormInput
+        as={[Function]}
+        control={[Function]}
+        name="number"
+        onChange={[Function]}
+        value=""
+      />
+    </FormField>
+    <div
+      className="button"
+    >
+      <Button
+        as="button"
+        disabled={true}
+        type="submit"
+      >
+        Buscar
+      </Button>
+    </div>
+  </Form>
+</div>
+`;

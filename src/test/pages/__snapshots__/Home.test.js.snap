@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en <Home /> Debe mostrar correctamente 1`] = `
+<div
+  className="home"
+>
+  <ClientForm
+    setClient={[Function]}
+    setSelectedComponent={[Function]}
+  />
+</div>
+`;
