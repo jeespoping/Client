@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en <App /> Debe mostrar correctamente 1`] = `<Home />`;
