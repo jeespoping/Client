@@ -9,12 +9,26 @@
 
     p{
         &:first-of-type{
-            color: $font-light;
+            color: $font-light-gray;
         }
         
     }
 
     .ui.form{
         margin-top: 20px;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .ui.button{
+            background-color: $background-grey;
+            color: $font-light;
+            padding: 10px 60px;
+            border-radius: 10px;
+        }
     }
 }
